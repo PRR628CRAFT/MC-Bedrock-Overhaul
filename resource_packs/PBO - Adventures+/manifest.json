@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "PBO - Adventures+",
+		"description": "PBO - Adventures+ Resource Pack",
+		"uuid": "c3291bed-8bda-b3b4-7e5e-7f202ae0be3d",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["PRR628"],
+		"generated_with": {
+			"blockbench_item_wizard": ["1.2.1"]
+		}
+	},
+	"modules": [
+		{
+			"description": "PBO - Adventures+",
+			"type": "resources",
+			"uuid": "386b6815-1610-db2c-2873-3f5057fe1647",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "be77219a-c743-a06d-9a36-ddcf50270876",
+			"version": [1, 0, 0]
+		}
+	]
+}

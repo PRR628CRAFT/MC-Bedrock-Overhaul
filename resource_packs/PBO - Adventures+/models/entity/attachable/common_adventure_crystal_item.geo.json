@@ -1,0 +1,36 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.common_adventure_crystal_item",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root_item",
+					"pivot": [0, 0, 0],
+					"binding": "q.item_slot_to_bone_name(c.item_slot)",
+					"cubes": [
+						{
+							"origin": [-5, 0, -5],
+							"size": [10, 10, 10],
+							"uv": {
+								"north": {"uv": [3, 3], "uv_size": [10, 10]},
+								"east": {"uv": [3, 3], "uv_size": [10, 10]},
+								"south": {"uv": [3, 3], "uv_size": [10, 10]},
+								"west": {"uv": [3, 3], "uv_size": [10, 10]},
+								"up": {"uv": [3, 3], "uv_size": [10, 10]},
+								"down": {"uv": [3, 13], "uv_size": [10, -10]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
